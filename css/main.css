@@ -49,6 +49,20 @@
     border: 1px solid red;
 }
 
+.developer-name{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    text-align: center;
+}
+.designation-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.occupation{
+    color: #2980b9;
+}
+
 /*nav bar*/
 
 
