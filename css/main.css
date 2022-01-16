@@ -125,10 +125,12 @@
     height: 100%;
     background: url("https://i0.wp.com/lovebelfast.co.uk/wp-content/uploads/2021/04/hunters-race-MYbhN8KaaEc-unsplash-scaled.jpg?fit=2560%2C1706&ssl=1") no-repeat center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .slider-inner-content{
-
+    padding: 0 70px;
 }
 .slider-developer-name{
     font-family: 'Roboto', sans-serif;
@@ -138,13 +140,17 @@
 }
 .slider-description{
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 14px;
     color: white;
 }
 
 .button-slider{
     width: 150px;
     height: 35px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: none;
+    color: white;
 }
 /*side*/
 
