@@ -4,8 +4,10 @@
 }
 
 .main-outer {
+    position: fixed;
     height: 100vh;
     display: flex;
+    overflow: auto;
 }
 
 .left {
