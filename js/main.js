@@ -1,2 +1,2 @@
 let date = new Date();
-document.getElementById("#year").innerText=date.getFullYear()+'';
+document.getElementById("year").innerText=date.getFullYear()+'';
