@@ -63,6 +63,23 @@
     color: #2980b9;
 }
 
+.nav-bar{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    padding: 5px 0;
+    text-align: center;
+}
+.nav-bar li a{
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #34495e;
+}
+
 /*nav bar*/
 
 
