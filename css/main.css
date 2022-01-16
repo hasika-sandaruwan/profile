@@ -1,0 +1,10 @@
+/* Main Page Styles*/
+.container-fluid{
+    padding: 0 50px!important;
+}
+.main-outer{
+    height: 100vh;
+    border: 1px solid red;
+}
+
+/* Main Page Styles*/
