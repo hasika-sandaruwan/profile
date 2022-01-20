@@ -290,10 +290,10 @@
     border: 1px solid blue;
 }
 .hexagon{
-    height: 120px;
-    border: 1px solid black;
-    width: 120px;
+    height: 80px;
+    width: 100px;
     position: relative;
+    background-color:#34495e ;
 }
 
 .hexagon:before,
@@ -301,17 +301,17 @@
     content: "";
     position: absolute;
     width: 0;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
 }
 .hexagon:before{
     bottom: 100%;
-    border-bottom: 75px solid #34495e;
+    border-bottom: 50px solid #34495e;
 }
 .hexagon:after{
     top: 100%;
     width: 0;
-    border-top: 75px solid #34495e;
+    border-top: 50px solid #34495e;
 }
 
 /*provide solutions*/
