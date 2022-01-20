@@ -201,7 +201,22 @@
     height: 200px;
     -webkit-box-shadow: 2px 4px 15px -4px #000000;
     box-shadow: 2px 4px 15px -4px #000000;
+    padding: 20px;
 }
+
+.fa-lightbulb{
+    color: #2980b9;
+}
+.fa-globe-europe{
+    color: #16a085;
+}
+.fa-database{
+    color: #d35400;
+}
+.fa-mobile-alt{
+    color: #2c3e50;
+}
+
 /*About*/
 
 /*right-side*/
