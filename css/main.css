@@ -164,11 +164,11 @@
 
 /*About*/
 
-.about-outer{
+.about-outer {
     padding: 0 70px;
 }
 
-.about-title{
+.about-title {
     font-size: 15px;
     text-transform: uppercase;
     color: gray;
@@ -176,27 +176,29 @@
     margin-top: 50px;
     letter-spacing: 5px;
 }
-.who-am-title{
+
+.who-am-title {
     font-size: 19px;
     text-transform: uppercase;
     color: black;
     margin: 0 0 50px 0;
     letter-spacing: 5px;
 }
-.about-description{
+
+.about-description {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #34495e;
 }
 
-.about-skill-outer{
+.about-skill-outer {
     height: 200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.about-skill-inner{
+.about-skill-inner {
     width: 20%;
     height: 200px;
     -webkit-box-shadow: 2px 4px 15px -4px #000000;
@@ -204,20 +206,54 @@
     padding: 20px;
 }
 
-.fa-lightbulb{
+.fa-lightbulb {
     color: #2980b9;
 }
-.fa-globe-europe{
+
+.fa-globe-europe {
     color: #16a085;
 }
-.fa-database{
+
+.fa-database {
     color: #d35400;
 }
-.fa-mobile-alt{
+
+.fa-mobile-alt {
     color: #2c3e50;
 }
 
 /*About*/
+
+
+/*Successful-dev*/
+
+.success-main-outer {
+    width: 100%;
+    height: 210px;
+    margin-top: 50px;
+    padding: 0 70px;
+}
+
+.success-main-inner {
+    width:100%;
+    height: 100%;
+    background-color: #f9bf3f;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.success-text{
+    font-family: 'Roboto', sans-serif;
+}
+.hire-me-button{
+    padding: 6px 12px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 92px;
+}
+/*Successful-dev*/
 
 /*right-side*/
 
