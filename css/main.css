@@ -432,12 +432,27 @@
     height: 100%;
     border: 1px solid red;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .line{
     width: 5px;
-    height: 100%;
-    background-color: #34495e;
+    flex:1;
+    background-color: #bdc3c7;
+}
+.icon-outer{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #bdc3c7;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.icon-inner{
+    width: 40px;
+    height: 40px;
+    background-color: #0d71bb;
+    border-radius: inherit;
 }
 /*right-side*/
 
