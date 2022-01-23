@@ -365,6 +365,30 @@
 }
 /*banner outer*/
 
+/*skills start*/
+
+.skill-outer{
+    padding: 50px 70px;
+}
+.progress-outer{
+    width: 100%;
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+}
+.progress-side{
+    flex: 1;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.progress-inner{
+    flex: 1;
+    border: 1px solid red;
+}
+/*skills start*/
+
+
 /*right-side*/
 
 /* Main Page Styles*/
