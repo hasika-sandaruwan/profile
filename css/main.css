@@ -345,63 +345,100 @@
     background: url("https://wallpapernoon.com/wp/full/moscow_city_4k_127_a2aa6.jpg") no-repeat center fixed;
     background-size: cover;
 }
-.banner-inner{
+
+.banner-inner {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     /*opacity: 0.1;*/
     display: flex;
 }
-.banner-items{
+
+.banner-items {
     width: 25%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.banner-items h1, h6{
+
+.banner-items h1, h6 {
     color: white;
     text-align: center;
 }
+
 /*banner outer*/
 
 /*skills start*/
 
-.skill-outer{
+.skill-outer {
     padding: 50px 70px;
 }
-.progress-outer{
+
+.progress-outer {
     width: 100%;
     height: 250px;
     display: flex;
 }
-.progress-side{
+
+.progress-side {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.progress-inner{
+
+.progress-inner {
     flex: 1;
     padding: 0 20px 0 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.lang-text{
+
+.lang-text {
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
+
 /*skills End*/
 
 /*Education start*/
 
-.education-outer{
+.education-outer {
     padding: 50px 70px;
 }
 
 /*Education end*/
 
+/*Work Start*/
+
+/*Work End*/
+.main-works-outer{
+    padding: 50px 70px;
+}
+.works-inner-wrap{
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+}
+.works-inner{
+    width: 100%;
+    height: 250px;
+    border: 1px solid red;
+}
+.line-wrapper{
+    width: 50px;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 5px;
+    height: 100%;
+    background-color: #34495e;
+}
 /*right-side*/
 
 /* Main Page Styles*/
